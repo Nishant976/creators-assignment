@@ -1,0 +1,46 @@
+
+* {
+    background-color: beige;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Container */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading */
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+/* Form */
+
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

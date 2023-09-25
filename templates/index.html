@@ -1,6 +1,15 @@
 {% extends "base.html" %}
+{% load static %}
+{% load bootstrap3 %}
+
+{% block css_files %}
+
+<link rel="stylesheet" href="{% static "index.css" %}" />
+
+{% endblock %}
+
 {% block content %}
 
-    <h1>Welcome to Creators Lab!</h1>
+<h1>Welcome to Creators Lab!</h1>
 
 {% endblock %}

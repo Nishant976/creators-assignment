@@ -15,3 +15,6 @@ class CreatePostView(CreateView):
    model=Image
    fields="__all__"
    success_url=reverse_lazy("login")
+
+
+    

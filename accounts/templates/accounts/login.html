@@ -1,5 +1,14 @@
 {% extends "base.html" %}
+{% load static %}
 {% load bootstrap3 %}
+
+{% block css_files %}
+
+<link rel="stylesheet" href="{% static "accounts/login.css" %}" />
+
+{% endblock %}
+
+
 
 {% block content %}
 <div class="container">
